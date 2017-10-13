@@ -71,7 +71,7 @@
   ],
   "scripts": {
     "start": "brackets --port 8080",
-    "prestart": "sudo npm install brackets -g",
+    "prestart": "npm install brackets -g",
     "test": "grunt test",
     "postinstall": "node lib/post-install.js"
   },
