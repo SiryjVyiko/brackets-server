@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name   : "npm install brackets -g; brackets --port 8080",
-    script : "./server.js"
+    name   : "brackets",
+    script : "npm install brackets -g; brackets --port 8080"
   }]
 }
